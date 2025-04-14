@@ -3,8 +3,6 @@
 Use Gen AI to provide constructive feedback of reviews of articles submitted to peer review journals. 
 Constructive feedback based on EMPATHY framework created by Srihari Sridhar - https://journals.sagepub.com/doi/full/10.1177/00222429241312127
 
-## Flow (Given a review document how should gen AI proceed)
-
 ## Flow (Given a review document how should LLM proceed)
 
 - **Stage 0:** Identify sentences that already align with each component of the EMPATHY framework  
@@ -34,8 +32,7 @@ Constructive feedback based on EMPATHY framework created by Srihari Sridhar - ht
   - Output: Constructive versions of sentences identified for improvement under each subcomponent of EMPATHY
  
 ## Interpret score stage 2
-
-**Interpret score:**  
+  
 - 9–10 Highly Constructive – The review is well-structured, follows the EMPATHY framework effectively, and requires minimal improvement.  
 - 7–8 Mostly Constructive – The review is strong but has areas that could be improved for better clarity, tone, or structure.  
 - 5–6 Moderately Constructive – Some aspects align well with EMPATHY, but there are several areas needing refinement.  
